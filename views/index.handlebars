@@ -1,0 +1,48 @@
+<div class="container">
+    <div class="header clearfix">
+        <nav>
+            <ul class="nav nav-pills float-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://webster.bfm.com" target="_blank">BlackRock Intranet</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://webster.bfm.com/Wiki" target="_blank">BlackRock Wiki</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-success" href="/scrape" role="button">Fetch !</a>
+                    </p>
+                </li>
+            </ul>
+        </nav>
+        <h3 class="text-muted">Technology Bites</h3>
+    </div>
+
+    {{!--News Cards--}} {{!--Iterate through the results and populate the handlebars injection points with the scraped titles,
+    links, and article snippets.--}} {{#each result}}
+    <div class="card news-section">
+        <a href="{{this.link}}">
+            <h6 class="card-header">{{this.title}}
+                <p style="float:right; font-size: small; display:inline-block" class="card-text">{{this.source}}</p>
+            </h6>
+        </a>
+        <div class="card-block">
+            {{!--
+            <h4 class="card-title"></h4>
+            </a>--}}
+            <a href="{{this.link}}">
+                <p class="card-text">{{this.articleSnippet}}</p>
+            </a>
+            <br>
+            <a href="/articles/{{this._id}}" class="btn btn-primary">Comment</a>
+        </div>
+    </div>
+    <br>
+    <br> {{/each}}
+
+
+    <footer class="footer">
+        <p>&copy; BlackRock 2017</p>
+    </footer>
+
+</div>
+<!-- /container -->
