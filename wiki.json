@@ -1,0 +1,42 @@
+[
+    {
+        "title": "Traditional statistical methods outperform ML in time-series forecasting",
+        "link": "https://webster.bfm.com/Wiki/display/sae/2018/04/23/Traditional+statistical+methods+outperform+ML+in+time-series+forecasting",
+        "articleSnippet": "A recent paper compares the performance of traditional time series forecasting with ML, with a focus on NNs, on a set of time series forecasting problems."
+    },
+    {
+        "title": "New BLK Directory for Copying Logfiles",
+        "link": "https://webster.bfm.com/Wiki/display/prodops/2018/04/24/New+BLK+Directory+for+Copying+Logfiles",
+        "articleSnippet": "All logs that are copied for preservation and inspection to BLK should be placed in /proj/logreview.  There are two subfolders norad and adhoc."
+    },
+    {
+        "title": "Cash cache and other transactions impacting returns/attribution",
+        "link": "https://webster.bfm.com/Wiki/pages/viewpage.action?pageId=255198313",
+        "articleSnippet": "Updates for all of the transactions listed below are automatically processed overnight, lookback period for updates included below"
+    },
+    {
+        "title": "GFI Responsible Investing Dashboard",
+        "link": "https://webster.bfm.com/Wiki/display/GFICOREPM/GFI+Responsible+Investing+Dashboard",
+        "articleSnippet": "ESG data aims to provide metrics that quantify a company's exposure to and management of environmental, social and governance issues."
+    },
+    {
+        "title": "BlackRock Academic Partnerships",
+        "link": "https://webster.bfm.com/Wiki/display/fin/BlackRock+Academic+Partnerships",
+        "articleSnippet": "If your business unit already engages in academic partnerships - whether it's conference participation, research sponsorships, PhD internships, or the like and the funding is sponsored within your business unit (or it's no-cost), great. Your business may continue to lead that effort;"
+    },
+    {
+        "title": "BEN (Aladdin Risk) - Data remediation and streamlining process/workflows",
+        "link": "https://webster.bfm.com/Wiki/pages/viewpage.action?pageId=400856119",
+        "articleSnippet": "The purpose of this page is to raise the awareness about on-going initiatives related to BEN remediation."
+    },
+    {
+        "title": "Performance Weighted Composite Benchmark",
+        "link": "https://webster.bfm.com/Wiki/display/rqaoprisk/Performance+Weighted+Composite+Benchmark",
+        "articleSnippet": "A normal float composite benchmark floats based on the market value of the underlying component indices. A performance weight composite benchmark floats based on the market value of the actual portfolios benched against the benchmark."
+    },
+    {
+        "title": "AMONE(ex DIAM) Package Documentation",
+        "link": "https://webster.bfm.com/Wiki/display/gpas/AMONE%28ex+DIAM%29+Package+Documentation",
+        "articleSnippet": "AMONE is an asset management company based in Tokyo, which was formed as a result of merger of ex Mizuho 3 asset management entities, namely MHTB, MHAM, SHINKO and a seperate asset management company DIAM"
+    }
+]
