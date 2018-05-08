@@ -17,39 +17,6 @@ module.exports = function (app) {
 
   app.get("/scrape", function (req, res) {
 
-    // Load BlackRock Data
-    for (var i = 0; i < blkJson.length; i++) {
-
-      var title = blkJson[i].title;
-      var link = blkJson[i].link;
-      var articleSnippet = blkJson[i].articleSnippet;
-
-      if (title && link && articleSnippet) {
-        // Save an empty result object
-        var result = {};
-
-        // Add the text and href of every link, and save them as properties of the
-        // result object
-        result.title = title;
-        result.link = link;
-        result.articleSnippet = articleSnippet;
-        result.source = "BlackRock Wiki";
-
-        console.log(result);
-
-        // Using our Article model, create a new entry
-        Article.create(result, function (err, doc) {
-          // Log any errors
-          if (err) {
-            console.log(err// Or log the doc
-            );
-          } else {
-            console.log(doc);
-          }
-        });
-      }
-    }
-
     // Load TechCrunch
     //use request dependecy to grab the body of the html
     var proxiedRequest = request.defaults({ proxy: "http://webproxy.bfm.com:8080" })
